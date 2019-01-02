@@ -1,0 +1,43 @@
+{
+  "name": "fastAutoTest4nodejs",
+  "author": "qingtiandove <418769227@qq.com>",
+  "license": "MIT",
+  "contributors": [],
+  "keywords": [
+    "android",
+    "webview",
+    "小程序",
+    "test",
+    "h5"
+  ],
+  "homepage": "",
+  "version": "0.1.0",
+  "description": "Find object position based on opencv4nodejs for nodejs",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "bugs": {
+    "url": ""
+  },
+  "engine-strict": {
+    "node": ">=8"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "appium-adb": "^6.29.1",
+    "chrome-remote-interface": "^0.27.0",
+    "iconv-lite": "^0.4.24",
+    "log4js": "^3.0.6",
+    "ts-node": "^7.0.1"
+  },
+  "devDependencies": {
+    "@types/node": "^10.11.3",
+    "eslint": "^5.10.0",
+    "babel-eslint": "^10.0.1",
+    "mocha": "^5.x.x"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
